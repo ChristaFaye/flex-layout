@@ -1,1 +1,114 @@
+/* Category tags style */
 
+.filter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;  
+    box-shadow: 1px 1px 1em #6e6e6e;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.tag {
+    padding: 8px 8px;
+    margin: .3em;
+    border: 2.5px solid #fc4f24;
+    border-radius: 1em;
+    background-color: #ebebebee;
+}
+
+
+/* Bottom footer style */
+
+.body_footer {
+    padding: 0;
+    margin: 0;
+}
+
+.layout {
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    padding: 0.5em;
+    background-color: #1b1a1a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle {
+    padding: 0.5em;
+}
+
+.bottom {
+    display: flex;
+    padding: 0.5em;
+    background-color: #1b1a1a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/* Site Header style */
+
+.body_header {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1a1a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+.logo {
+    display: flex;
+    background-color: #ff0000;
+    border-radius: 1em;
+    justify-content: center;    
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #5a5a5a;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    align-items: center;
+    border: 0;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 3px;
+    width: 20px;
+    margin: 1.5px;
+    background-color: #222121;
+}
